@@ -1,0 +1,59 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5240EA8B-741E-48CA-963F-92C364B86D8D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eto.RainbowLoading.Demo", "Eto.RainbowLoading.Demo\Eto.RainbowLoading.Demo.csproj", "{0DF9118B-CF09-4A1C-A9EA-B8A8E63A8F79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eto.RainbowLoading", "Eto.RainbowLoading\Eto.RainbowLoading.csproj", "{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF9118B-CF09-4A1C-A9EA-B8A8E63A8F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF9118B-CF09-4A1C-A9EA-B8A8E63A8F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF9118B-CF09-4A1C-A9EA-B8A8E63A8F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF9118B-CF09-4A1C-A9EA-B8A8E63A8F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5AD34511-0BA5-4E6F-A096-37FBD5B51A93}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $7
+		$2.TabsToSpaces = True
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$4.inheritsSet = null
+		$4.scope = application/xaml+xml
+		$0.XmlFormattingPolicy = $5
+		$5.DefaultFormat = $6
+		$6.AttributesInNewLine = True
+		$6.AlignAttributes = True
+		$6.AlignAttributeValues = True
+		$6.SpacesBeforeAssignment = 1
+		$6.SpacesAfterAssignment = 1
+		$5.scope = application/xaml+xml
+		$7.inheritsSet = null
+		$7.scope = text/x-vs
+	EndGlobalSection
+EndGlobal
