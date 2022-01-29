@@ -1,16 +1,12 @@
-# Rainbow Loading
+# Eto.RainbowLoading
 
-A SkiaSharp implementation of the famous Android loading indicator for Xamarin.Forms.
+Provides an [Eto.Forms](https://github.com/picoe/Eto) implementation of the famous Android loading indicator. Adapted from [RainbowLoading.Forms](https://github.com/mariusmuntean/RainbowLoading.Forms).
 
-Don't want to built it yourself? Get it from NuGet: https://www.nuget.org/packages/de.marius.rainbowloading
+## Quickstart
 
-## Getting Started
+Use NuGet to install [`Eto.RainbowLoading`](https://www.nuget.org/packages/Eto.RainbowLoading/), then add the following to your Form or Container:
+```cs
+   this.Content = new RainbowLoading();
+```
 
-This is what you get:
-
-![rainbow loading gif](media/RainbowLoading.Forms.720p.gif)
-
-
-You're free to do anything you want with my code :D
-
-Enjoy!
+![](./Animation.gif)  
