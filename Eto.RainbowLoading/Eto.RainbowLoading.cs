@@ -13,7 +13,7 @@ namespace Eto.RainbowLoading
 		private double _rotation = 0.0;
 		private int _currentColorIndex = 0;
 		private const float _progressArcDiameterProportion = 0.65f;
-		private UITimer _progressTimer = new UITimer() { Interval = 0.02 };
+		private readonly UITimer _progressTimer = new UITimer() { Interval = 0.02 };
 
 		public TimeSpan ProgressDuration { get; set; } = TimeSpan.FromMilliseconds(1400);
 		public TimeSpan RotationDuration { get; set; } = TimeSpan.FromMilliseconds(2000);
