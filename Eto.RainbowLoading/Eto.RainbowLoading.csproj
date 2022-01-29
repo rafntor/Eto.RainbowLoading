@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>readme.md</PackageReadmeFile>
+		<Description>An implementation of the famous Android loading indicator for Eto.Forms.</Description>
+		<PackageProjectUrl>https://github.com/rafntor/Eto.RainbowLoading</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/rafntor/Eto.RainbowLoading</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>Eto;Eto.Forms;RainbowLoading</PackageTags>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Copyright>Copyright © 2019 Marius Muntean, 2022 Tore Fuglestad</Copyright>
+		<EnableNETAnalyzers>True</EnableNETAnalyzers>
+		<Authors>Marius Muntean, Tore Fuglestad</Authors>
+		<Owners>Tore Fuglestad</Owners>
+		<Company />
+	</PropertyGroup>
+
+	<ItemGroup>
+    <PackageReference Include="Eto.Forms" Version="2.5.11" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\LICENSE">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\readme.md">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\Animation.gif">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
