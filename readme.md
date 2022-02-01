@@ -2,10 +2,15 @@
 
 [![Build](https://github.com/rafntor/Eto.RainbowLoading/actions/workflows/build.yml/badge.svg)](https://github.com/rafntor/Eto.RainbowLoading/actions/workflows/build.yml)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rafntor_Eto.RainbowLoading&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=rafntor_Eto.RainbowLoading)
-[![NuGet](http://img.shields.io/nuget/v/Eto.RainbowLoading.svg)](https://www.nuget.org/packages/Eto.RainbowLoading/)
+[![NuGet](https://img.shields.io/badge/nuget-Eto.RainbowLoading-blue)](https://www.nuget.org/packages?q=eto.rainbowloading)
 [![License](https://img.shields.io/github/license/rafntor/Eto.RainbowLoading)](LICENSE)
 
-Provides an [Eto.Forms](https://github.com/picoe/Eto) implementation of the famous Android loading indicator. Adapted from [RainbowLoading.Forms](https://github.com/mariusmuntean/RainbowLoading.Forms).
+Provides [Eto.Forms](https://github.com/picoe/Eto) implementations of the famous Android loading indicator. Adapted from [RainbowLoading.Forms](https://github.com/mariusmuntean/RainbowLoading.Forms).  
+Two variations are available where the pure Eto-Edition is the leanest whereas the Eto/SkiaSharp-Edition adds a shadow-effect to the animation.
+
+|Pure Eto.Forms Version|Eto.Forms + SkiaSharp|
+|---|---|
+|[![pure](https://img.shields.io/nuget/v/Eto.RainbowLoading)](https://www.nuget.org/packages/Eto.RainbowLoading/)|[![skia](https://img.shields.io/nuget/v/Eto.RainbowLoading.Skia)](https://www.nuget.org/packages/Eto.RainbowLoading.Skia/)|
 
 Demo applications : https://nightly.link/rafntor/Eto.RainbowLoading/workflows/build/master
 
