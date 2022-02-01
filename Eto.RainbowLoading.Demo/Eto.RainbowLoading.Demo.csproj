@@ -11,6 +11,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.80.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Eto.RainbowLoading.Skia\Eto.RainbowLoading.Skia.csproj" />
     <ProjectReference Include="..\Eto.RainbowLoading\Eto.RainbowLoading.csproj" />
   </ItemGroup>
 
