@@ -25,7 +25,8 @@ jobs:
     - name: Build # SonarScan locks some files and breaks Build if done first
       run: |
         dotnet publish -r osx-x64 -p:PublishSingleFile=true --self-contained Eto.RainbowLoading.Demo
-        dotnet publish -r linux-x64 -p:PublishSingleFile=true --self-contained Eto.RainbowLoading.Demo
+        # include native libSkiaSharp when publishing selfcontained 
+        dotnet publish -r linux-x64 -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true --self-contained Eto.RainbowLoading.Demo
         # wrap artifacts in tar archives to maintain permissions intact
         tar --directory=Eto.RainbowLoading.Demo/bin/Mac64/Debug/net6.0/osx-x64/publish -cvf Eto.RainbowLoading.Demo.Mac.tar Eto.RainbowLoading.Demo.app
         tar --directory=Eto.RainbowLoading.Demo/bin/Gtk/Debug/net6.0/linux-x64/publish -cvf Eto.RainbowLoading.Demo.Gtk.tar Eto.RainbowLoading.Demo

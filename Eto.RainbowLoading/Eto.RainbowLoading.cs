@@ -18,7 +18,7 @@ namespace Eto.RainbowLoading
 		public TimeSpan ProgressDuration { get; set; } = TimeSpan.FromMilliseconds(1400);
 		public TimeSpan RotationDuration { get; set; } = TimeSpan.FromMilliseconds(2000);
 
-		public Color ControlColor { get; set; } = Colors.White;
+		public Color ControlColor { get; set; } = SystemColors.Control;
 		public List<Color> ProgressColors { get; set; } = new List<Color>
 			 {
 					 Color.FromArgb(66,133,244),
@@ -29,7 +29,7 @@ namespace Eto.RainbowLoading
 
 		public RainbowLoading()
 		{
-			BackgroundColor = SystemColors.Control;
+			BackgroundColor = SystemColors.ControlBackground;
 
 			_currentColor = ProgressColors[_currentColorIndex];
 
