@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eto.RainbowLoading.Demo", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eto.RainbowLoading", "Eto.RainbowLoading\Eto.RainbowLoading.csproj", "{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eto.RainbowLoading.Skia", "Eto.RainbowLoading.Skia\Eto.RainbowLoading.Skia.csproj", "{8D4CC3C5-BD80-47AA-B12A-4DED5732DA0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A25E0C2-2FEF-4A0D-815C-8D73242D2A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D4CC3C5-BD80-47AA-B12A-4DED5732DA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4CC3C5-BD80-47AA-B12A-4DED5732DA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4CC3C5-BD80-47AA-B12A-4DED5732DA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4CC3C5-BD80-47AA-B12A-4DED5732DA0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
