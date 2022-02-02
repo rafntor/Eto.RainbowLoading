@@ -9,7 +9,7 @@ namespace Eto.RainbowLoading.Demo
 	public partial class MainForm : Form
 	{
 		private readonly Random rand = new Random();
-		private CheckBox skia = new CheckBox() { Text = "Use Skia", Font = Fonts.Sans(20) };
+		private readonly CheckBox skia = new CheckBox() { Text = "Use Skia", Font = Fonts.Sans(20) };
 		public MainForm()
 		{
 			Title = "My Eto Form";

@@ -17,14 +17,14 @@ namespace Eto.RainbowLoading.Skia
 		private const float _progressArcDiameterProportion = 0.65f;
 		private readonly UITimer _progressTimer = new UITimer() { Interval = 0.02 };
 
-		SKPaint controlPaint = new SKPaint()
+		readonly SKPaint controlPaint = new SKPaint()
 		{
 			Color = SKColors.White,
 			IsAntialias = true,
 			IsStroke = false,
 		};
 
-		SKPaint progressPaint = new SKPaint()
+		readonly SKPaint progressPaint = new SKPaint()
 		{
 			StrokeWidth = 10,
 			IsAntialias = true,
