@@ -1,7 +1,6 @@
 # Eto.RainbowLoading
 
 [![Build](https://github.com/rafntor/Eto.RainbowLoading/actions/workflows/build.yml/badge.svg)](https://github.com/rafntor/Eto.RainbowLoading/actions/workflows/build.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rafntor_Eto.RainbowLoading&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=rafntor_Eto.RainbowLoading)
 [![NuGet](https://img.shields.io/badge/nuget-Eto.RainbowLoading-blue)](https://www.nuget.org/packages?q=eto.rainbowloading)
 [![License](https://img.shields.io/github/license/rafntor/Eto.RainbowLoading)](LICENSE)
 
